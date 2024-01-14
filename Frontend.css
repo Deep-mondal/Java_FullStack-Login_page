@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	font-family:Poppins;
+}
+.header{
+    width:100%;
+    height:80px;
+    box-shadow:0px 0px 5px goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 40px;
+    background:linear-gradient(to right,orange,red);
+}
+.header h2{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.header button{
+    background-color: blueviolet;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    padding: 10px;
+    color:white;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.header button:hover{
+    box-shadow: 0px 0px 5px black;
+}
+.student{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    height:550px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 8px;
+    border:1px solid aquamarine;
+    margin-top: 10px;
+}
+.student .container{
+    width:100%;
+    height:40px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background: linear-gradient(to right,cyan,blue);
+    text-align: center;
+    border-bottom: 2px solid salmon;
+    color:white;
+    font-weight: bolder;
+}
+.student form{
+    width:80%;
+    height:300px;
+    margin:auto 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.student .container-container button{
+    width:90%;
+    height:40px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    margin:0px 18px;
+    margin-top:100px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.student form input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    margin:5px;
+    padding: none;
+    border-color: bisque ;
+}
+.student form textarea{
+    width: 80%;
+    padding: 20px;
+    border-radius: 8px;
+    margin:5px;
+    border-color: bisque;
+}
+@keyframes anim1 {
+    to{
+        opacity: 0;
+    }
+    from{
+        opacity: 1;
+    }
+}
